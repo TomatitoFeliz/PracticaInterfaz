@@ -8,6 +8,8 @@ public class IntroAnimation : MonoBehaviour
     GameObject logo;
     [SerializeField]
     GameObject menu;
+    [SerializeField]
+    GameObject logoafter;
 
     void Start()
     {
@@ -37,6 +39,7 @@ public class IntroAnimation : MonoBehaviour
         gameObject.SetActive(false);
         //Activar el menú principal...
         menu.SetActive(true);
+        logoafter.SetActive(true);
 
     }
 }
