@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Banderas Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Banderas
+  m_TableCollectionNameGuidString: 4d61a2d2d440d0341b5de4ed0038254a
+  m_Entries:
+  - m_Id: 11668627456
+    m_Key: Banderas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1165936893952
+    m_Key: Parte2/UI/Banderas/Image
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items:
+    - rid: 1366056955656536133
+  m_KeyGenerator:
+    rid: 1366056955656536128
+  references:
+    version: 2
+    RefIds:
+    - rid: 1366056955656536128
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1666862050362
+    - rid: 1366056955656536133
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 1165936893952
+          m_TableCodes:
+          - es
+          - en
+          - nl
+          - fr
+          - it
+        m_TypeString: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
