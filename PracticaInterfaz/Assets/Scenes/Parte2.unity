@@ -2809,6 +2809,7 @@ GameObject:
   - component: {fileID: 726877160}
   - component: {fileID: 726877159}
   - component: {fileID: 726877163}
+  - component: {fileID: 726877164}
   m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
@@ -2911,6 +2912,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menu: {fileID: 949967502}
+--- !u!114 &726877164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726877158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e14b0dd4eec4744991f76568537443, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &741094971 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a9cdb9537bf8c5b4c828c03bb8244c1f, type: 3}
@@ -4652,7 +4665,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1149578148}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 726877164}
+        m_TargetAssemblyTypeName: Cierre, Assembly-CSharp
+        m_MethodName: cierre
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1149578148
 MonoBehaviour:
   m_ObjectHideFlags: 0
