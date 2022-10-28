@@ -10,28 +10,34 @@ public class MenuIdiomas : MonoBehaviour
     [SerializeField]
     GameObject idiomas;
     [SerializeField]
-    GameObject regresar;
-    [SerializeField]
     GameObject logoafter;
     [SerializeField]
     GameObject image;
+    [SerializeField]
+    GameObject bandera;
 
-    private void Start()
+    private void OnEnable()
     {
+        LeanTween.scale(image, Vector3.zero, 0.0f);
         LeanTween.scale(image, Vector3.one, 1.0f).setEaseSpring();
     }
 
     public void menuidiomas()
     {
         menu.SetActive(false);
+        bandera.SetActive(false);
         logoafter.SetActive(false);
         idiomas.SetActive(true);
     }
-    public void regreso()
+
+    public void cerrar()
     {
-        menu.SetActive(true);
-        logoafter.SetActive(true);
-        idiomas.SetActive(false);
+        LeanTween.scale(image, Vector3.zero, 0.5f).setOnComplete(() => {
+            menu.SetActive(true);
+            bandera.SetActive(true);
+            logoafter.SetActive(true);
+            idiomas.SetActive(false);
+        }); 
     }
 
     //private void OnEnable()

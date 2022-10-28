@@ -23,6 +23,10 @@ MonoBehaviour:
     m_Key: Parte2/UI/Banderas/Image
     m_Metadata:
       m_Items: []
+  - m_Id: 386292688953344
+    m_Key: Parte2/UI/MenuIdiomas/Image/IdiomaImage
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 1366056955656536133
@@ -40,6 +44,13 @@ MonoBehaviour:
       data:
         m_Entries:
         - m_KeyId: 1165936893952
+          m_TableCodes:
+          - es
+          - en
+          - nl
+          - fr
+          - it
+        - m_KeyId: 386292688953344
           m_TableCodes:
           - es
           - en

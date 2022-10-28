@@ -31,6 +31,10 @@ MonoBehaviour:
     m_Key: ButtonExit
     m_Metadata:
       m_Items: []
+  - m_Id: 395903710076928
+    m_Key: Parte2/UI/MenuIdiomas/Image/IdiomaImage/idiomaText
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
